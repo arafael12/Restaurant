@@ -1,0 +1,139 @@
+/* ===========================================================================
+
+    Table of Contents
+
+    1. Global Styles
+        1.0 - General
+        1.1 - CSS Reset
+    2. Header
+        2.0 - Navigation Bar
+        2.1 - Banner
+    3. Main Section
+        3.0 - Icons
+        3.1 - H3 Text
+        3.2 - Paragraph Text
+        3.3 - Image Showcase
+        3.4 - Testimonials
+
+=========================================================================== */
+
+/* ===========================================================================
+    1. Global Styles
+=========================================================================== */
+
+/* ===== 1.0 - General ==================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+/* ===== 1.1 - CSS Reset ================================================== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+    border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Work Sans', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ===========================================================================
+    2. Header
+=========================================================================== */
+
+/* ===== 2.0 - Navigation Bar ============================================= */
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #252525;
+    margin-top: 0;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#main-menu {
+    text-align: center;
+}
+
+#main-menu ul {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+}
+
+#main-menu li {
+    display: inline-block;
+    margin-left: 24px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+    line-height: 5;
+}
+
+.menu-item li a {
+    display: block;
+    padding: 24px 0;
+}
+
+/* ===== 2.0 - Navigation Bar Hover Effects ================================ */
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #9fc4ce;
+    text-decoration: none;
+}
+
+nav ul li a:before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    border-bottom: 1px solid #fff;
+}
