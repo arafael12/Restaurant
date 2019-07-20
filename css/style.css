@@ -137,3 +137,22 @@ nav ul li a:before {
     width: 0;
     border-bottom: 1px solid #fff;
 }
+
+.txtwel{
+    color: lightblue;
+    font-family:"work Sans", sans-serif;
+    letter-spacing:5px;
+    margin-top: 5rem;
+    
+    }
+
+    .txt{
+        color: black;
+    }
+
+    .form{
+        padding: 10%;
+        padding-top: 0%;
+        padding-bottom: 5%;
+
+    }
